@@ -1,0 +1,62 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [512, 512],
+	"textures": {
+		"0": "item/totem_of_undying",
+		"particle": "item/totem_of_undying"
+	},
+	"elements": [
+		{
+			"from": [9, 0, 0],
+			"to": [9, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1, 6]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 0, 16], "texture": "#missing"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [20, 71, 0],
+			"translation": [0.25, -0.25, 0.5],
+			"scale": [1, 0.4, 0.4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [20, 71, 0],
+			"translation": [0.25, 0, -1.75],
+			"scale": [1, 0.4, 0.4]
+		},
+		"firstperson_righthand": {
+			"rotation": [-17, 56, 5],
+			"translation": [10.5, -0.25, -11],
+			"scale": [1, 0.8, 0.65]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-17, 56, 5],
+			"translation": [9.75, 1.25, -10],
+			"scale": [1, 0.8, 0.65]
+		},
+		"ground": {
+			"translation": [-0.75, 2, -0.25],
+			"scale": [1, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [0, 90, 0],
+			"translation": [-0.25, -0.25, 0],
+			"scale": [1, 0.92, 0.93]
+		},
+		"head": {
+			"rotation": [0, -90, 0],
+			"translation": [0.75, 14, -1]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [0.5, 0.25, 1]
+		}
+	}
+}
